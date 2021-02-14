@@ -1,0 +1,11 @@
+<style>
+ body { font-family: 'Noto Serif KR', serif;
+    background-color: white;
+  }
+  p {
+float: left;
+  }
+img {
+  display: inline-block;
+}
+</style>

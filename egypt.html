@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- The viewport is for responsive websites -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="preconnect" href="<link rel=" preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="egypt/css/egypt.css">
+
+  <!-- Style must be in the heading -->
+<!-- internal css -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 100px;
+    }
+
+    p {
+      font-size: 30px;
+      line-height: 1.2;
+      padding: 75px;
+      font-weight: 200;
+    }
+
+    h1 {
+      font-size: 40px;
+      text-transform: lowercase;
+      color: #1E4359;
+    }
+
+    h2 {
+      color: #0A7AA6;
+      text-decoration-line: underline;
+      text-decoration-style: wavy;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      font-style: italic;
+      color: #166B8C;
+
+    }
+
+    h4 {
+      color: #8C7369;
+
+    }
+
+    h5 {
+      text-transform: lowercase;
+      color: #D9CAC5;
+    }
+
+    h6 {
+      text-transform: uppercase;
+    }
+
+    #theYellowSquare {
+      height: 200px;
+      width: 200px;
+      background-color: yellow;
+    }
+
+    .left-side,
+    .right-side {
+      float: left;
+      width: 45%;
+    }
+
+    .container {
+      border: 3px solid #0A7AA6;
+/* Overflow is a great fix */
+      overflow: auto;
+      padding: 20px;
+    }
+  </style>
+
+
+</head>
+<!-- the orange coloured code are attributes -->
+<!-- id should be camelcase and classes should be hyphin '-' -->
+
+<body>
+
+  <!-- container 1 BEGINS -->
+  <div class="container">
+
+    <div class="left-side">
+      <h1>Some Egyptian doctors had specialized fields of study</h1>
+      <img src="img/egypt-doctor.jpg" alt="">
+    </div>
+
+    <div class="right-side">
+      <p>An ancient physician was usually a jack-of-all-trades, but evidence shows
+        that Egyptian doctors sometimes focused on healing only one part of the human
+        body. This early form of medical specialization was first noted in 450 B.C.
+        by the traveler and historian Herodotus. Discussing Egyptian medicine, he wrote, “Each physician is a healer of one disease and no more…some of the eye, some of the teeth, some of what pertains to the belly.” These specialists even had
+        specific names. Dentists were known as “doctors of the tooth,” while the term for proctologists literally translates to “shepherd of the anus.”</p>
+      <!-- <div id="theYellowSquare" class="is-a-class"></div> -->
+    </div>
+
+  </div>
+  <!-- container ENDS -->
+
+  <!-- container 1 BEGINS -->
+  <div class="container-two">
+    <h1>H1 Some Egyptian doctors had specialized fields of study</h1>
+    <br>
+    <h2>H2 Some Egyptian doctors had specialized fields of study</h2>
+    <br>
+    <h3>H3 Some Egyptian doctors had specialized fields of study</h3>
+    <br>
+    <h4>H4 Some Egyptian doctors had specialized fields of study</h4>
+    <br>
+    <h5>H5 Some Egyptian doctors had specialized fields of study</h5>
+    <br>
+    <h6>H6 Some Egyptian doctors had specialized fields of study</h6>
+
+    <p> An ancient physician was usually a jack-of-all-trades, but evidence shows
+      that Egyptian doctors sometimes focused on healing only one part of the human
+      by the traveler and historian Herodotus. Discussing Egyptian medicine</p>
+  </div>
+// This is a CDN of jquery
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <!-- internal javascript -->
+
+  <script>
+    // This is some javascript code to create an alret when you open your website.
+    // $ sign means we are usig Jquery.
+
+
+    // These are jquery methods
+
+    // set a time for you to for your code. The function does things once the time is out
+    //setTimeout(function(){
+    //$('img').hide(2000);
+    //},3000);
+
+    // alert('Good Morning...');
+    // $('img').hide(5000);
+    //  $('img').show(5000);
+// These are js methods
+    //  $('.left-side').fadeOut(5000);
+    //  $('.left-side').fadeIn(5000);
+
+    // $('p').fadeOut(5000);
+    // $('p').fadeIn(5000);
+
+    // $('.container-two').slideUp(4000);
+    // $('.container-two').slideDown(4000);
+// This is an event listiner for hovering over an element
+    $('.right-side').mouseover(function(){
+    $('img').hide(2000);
+// end comment tag
+    });
+
+  </script>
+  </script>
+
+</body>
+
+</html>
